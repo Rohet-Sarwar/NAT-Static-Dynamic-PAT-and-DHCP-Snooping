@@ -30,8 +30,24 @@ Technologies demonstrated in this project are commonly used in **enterprise netw
 - Router representing an **ISP / public network**
 
 ---
+## Scenario 1 – Static NAT
 
-## Scenario 1 – Dynamic NAT
+Static NAT maps private IP addresses to a **public IP addresse**.
+
+### Public IP 
+Static NAT maps private IP addresses to a ** IP address**.
+### Public IP 
+200.101.10.3
+
+### Operation
+- Internal host 192.168.10.3` request external communication
+- Router assigns an available IP 200.101.10.3
+
+### Key Features Demonstrated
+- NAT pool creation
+- 
+  
+## Scenario 2 – Dynamic NAT
 
 Dynamic NAT maps private IP addresses to a **pool of public IP addresses**.
 
@@ -52,7 +68,7 @@ Dynamic NAT maps private IP addresses to a **pool of public IP addresses**.
 - Dynamic translation table verification
 
 ---
-## Scenario 2 – Port Address Translation (PAT)
+## Scenario 3 – Port Address Translation (PAT)
 
 PAT allows **multiple internal devices to share a single public IP address** using different port numbers.
 
@@ -74,6 +90,7 @@ PAT allows **multiple internal devices to share a single public IP address** usi
 ## Configuration Concepts Used
 
 - Dynamic NAT
+- Static NAT
 - PAT (NAT Overload)
 - Access Control Lists (ACL)
 - Inside / Outside Interface Roles
@@ -95,10 +112,8 @@ show running-config
 
 NAT_DHCP_SNooping.png
 PAT.png
-Static_Nat.png
-Dybamic_NAT.png
-
-topology-pat.png
+Static_NAT.png
+Dynamic_NAT.png
 
 
 
