@@ -11,7 +11,7 @@ Technologies demonstrated in this project are commonly used in **enterprise netw
 
 - Configure **Dynamic NAT** using an IP address pool
 - Configure **PAT (NAT Overload)** for multiple hosts using a single public IP
-- - Configure **Static NAT** using an IP address 
+- Configure **Static NAT** using an IP address 
 - Allow internal private network hosts to communicate with external networks
 - Verify NAT translations using Cisco IOS commands
 
